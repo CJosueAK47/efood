@@ -6,9 +6,9 @@ import RestaurantList from '../../components/RestaurantList'
 
 export type Pedido = {
   id: number
+  foto: string
   nome: string
   preco: number
-  foto: string
 }
 export type Restaurant = {
   id: number
@@ -43,6 +43,6 @@ const Home = () => {
       </>
     )
   }
-  return <h4>Loading ...</h4>
+  return <h4>Loading...</h4>
 }
 export default Home
